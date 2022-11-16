@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #23252C;
+    color: white;
+    height: 100vh;
+}
+.container{
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 40%;
+    background-color: #1A1B21;
+}
+.info--container{
+    text-align: center;
+}
+.info-picture{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.info--container h2{
+    margin-bottom: 2px;
+}
+.info--container h5{
+    margin: 0;
+    color: #F3BF99;
+}
+.info-btn{
+    border: none;
+    padding: 5px 8px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.btn-blue{
+    background-color: #5093E2;
+    color: white;
+}
+.about-section, .interest-section{
+    padding: 0 20px;
+    margin: 40px 0;
+}
+.about-text, .interest-text{
+    margin-top: -12px;
+    font-size: 14px;
+    color: #DCDCDC;
+}
+
+.footer{
+    background-color: #161619;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    
+}
+.footer-btn{
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: gray;
+    width: 50px;
+}
+.fa-brands{
+    border-radius: 5px;
+    background-color: #918E9B;
+}
+
